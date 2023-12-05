@@ -6,14 +6,14 @@ namespace Тумаков_14лаб.Classes
     internal class DeveloperInfoAttribute : Attribute
     {
         private string name;
+        private string date;
         public string Name
         {
             get
             {
                 return name;
             }
-        }
-        private string date;
+        }        
         public string Date
         {
             get
